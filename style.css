@@ -220,8 +220,7 @@ html,body{
     z-index: 65;
     height: 100%;
     width: 260px;
-    border-radius: 20px;
-    /* height: auto; */
+    border-radius: 35px;
 }
 
 .page10 .page10-pic{
@@ -232,4 +231,6 @@ html,body{
     position: absolute;
     height: 250px;
     width: 260px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }

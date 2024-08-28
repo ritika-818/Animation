@@ -79,18 +79,20 @@ gsap.to(".page2 .phone", {
 });
 console.log("ritika");
 gsap.to(".page3", {
+	// opacity:0.5,
     scrollTrigger: {
         trigger: ".page3",
-        endTrigger: ".page3",
+        endTrigger: ".page9",
         pin: true, 
         pinSpacing: false
     }
 });
 
 gsap.to(".page4", {
+	// backgroundColor:"blue",
     scrollTrigger: {
         trigger: ".page4",
-		endTrigger:".page4",
+		endTrigger:".page9",
 		pin:true,
 		pinSpacing:false,
     }
@@ -99,7 +101,7 @@ gsap.to(".page4", {
 gsap.to(".page5", {
     scrollTrigger: {
 		trigger: ".page5",
-		endTrigger:".page5",
+		endTrigger:".page9",
 		pin:true,
 		pinSpacing:false,
     }
@@ -108,7 +110,7 @@ gsap.to(".page5", {
 gsap.to(".page6", {
     scrollTrigger: {
         trigger: ".page6",
-		endTrigger:".page6",
+		endTrigger:".page9",
 		pin:true,
 		pinSpacing:false,
     }
@@ -117,7 +119,7 @@ gsap.to(".page6", {
 gsap.to(".page7", {
     scrollTrigger: {
         trigger: ".page7",
-		endTrigger:".page7",
+		endTrigger:".page9",
 		pin:true,
 		pinSpacing:false,
     }
@@ -126,7 +128,7 @@ gsap.to(".page7", {
 gsap.to('.page8',{
 	scrollTrigger:{
 		trigger:".page8",
-		endTrigger:".page8",
+		endTrigger:".page9",
 		pin:true,
 		pinSpacing:false,
 	}
