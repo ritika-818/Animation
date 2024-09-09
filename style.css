@@ -9,6 +9,11 @@ html, body {
   width: 100%;
 }
 
+body {
+  background-color: rgb(31, 31, 31);
+  will-change: background;
+}
+
 .img-container .img-1 {
   position: relative;
   width: 360px;

@@ -1,3 +1,96 @@
+gsap.to("body",{
+	backgroundColor:"rgb(58, 54, 109)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page1",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+gsap.to("body",{
+	backgroundColor:" rgb(80, 135, 162)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page4",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+gsap.to("body",{
+	backgroundColor:" rgb(90, 121, 103)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page5",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+
+gsap.to("body",{
+	backgroundColor:" rgb(124, 103, 105)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page6",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+gsap.to("body",{
+	backgroundColor:" rgb(177, 75, 107)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page6",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+gsap.to("body",{
+	backgroundColor:" rgb(159, 73, 145)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'body',
+        endTrigger: ".page7",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+gsap.to("body",{
+	backgroundColor:" rgb(123, 68, 142)",
+	duration : 3,
+	ease: "linear",
+	scrollTrigger:{
+		trigger:'.page7',
+        endTrigger: ".page8",
+		scoller: 'body',
+		scrub: 5, 
+
+	}
+})
+
+
 gsap.to(".img-container .img-1",{
 	x:-350,
 	duration:5,
@@ -142,3 +235,4 @@ gsap.to(".page9",{
 		pinSpacing:false,
 	}
 })
+
