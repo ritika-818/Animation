@@ -13,11 +13,12 @@ html, body {
 }
 body{
   background-color: rgb(31, 31, 31);
-  will-change: background;
+  // will-change: background;
 }
 
 .img-container {
   .img-1 {
+    // display: none;
     position: relative;
     width: 360px;
     height: 360px;
@@ -83,7 +84,7 @@ body{
 }
 
 .page2 {
-  z-index: 10;
+  z-index: -9999;
 
   .phone {
     position: sticky;
@@ -96,6 +97,7 @@ body{
 
 .page3 {
   z-index: 20;
+  margin-top: 20rem;
 
   .page-img-3 {
     position: absolute;
